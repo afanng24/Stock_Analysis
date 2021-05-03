@@ -31,7 +31,7 @@ The refactoring of the code was accomplished a few different ways, first by usin
 ## Summary
 
 ### Advantages and Disadvantages of refactoring code
-
+As proven by the notable spike in efficiency between the two codes, refactoring the code allows the analysis to be completed much faster simply by assigning the variables to each ticker symbol in tickerIndex. If in the future the data set is expanded to include tens or hundreds of thousands of stocks and their subsequent information then the refactored code will be able to sort through the information much more efficiently. There is no real disadvantage to refactoring code except for coders who will look through the code in the future and not truly understand why changes have been made to an already working code. 
 
 
 ### Advantages and Disadvantages of the original and refactored VBA script
