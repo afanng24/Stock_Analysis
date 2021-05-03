@@ -35,5 +35,6 @@ As proven by the notable spike in efficiency between the two codes, refactoring 
 
 
 ### Advantages and Disadvantages of the original and refactored VBA script
+An advantage to refactoring in VBA script is that the refactored code can be in a new Sub or even a different module, which allows coders to look at the original code while working on the refactored code. If the refactored code isn’t as efficient or doesn’t work properly they can always just refer to the original code and begin again. A disadvantage is that different functions can exist in different modules and still function at the same time, or not function at all which at times can be confusing to someone new to VBA. 
 
 
